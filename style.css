@@ -70,4 +70,32 @@ body {
   display: flex;
 }
 
+.sidebar {
+  height: 100%;
+  width: 230px;
+  background-color: white;
+}
+
+.sidebar_categories {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.side_bar category {
+  display: flex;
+  text-align: center;
+  padding: 12px 25px;
+}
+
+.side_bar category span {
+  margin-left: 15px;
+
+}
+.side_bar category:hover{
+background-color: grey;
+cursor: pointer;
+}
+
 
